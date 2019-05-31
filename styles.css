@@ -127,7 +127,19 @@ ul.products h3 {
     margin: 0;
 }
 
+#orderdesk {
+    display: block;
+}
+
+#ordermob {
+    display: none;
+}
+
 @media only screen and (orientation: portrait) {
+
+    body {
+        background: none;
+    }
 
     .navbar {
         /*padding-left: 5vw;
@@ -145,7 +157,7 @@ ul.products h3 {
     }
 
     p {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .link {
@@ -181,6 +193,14 @@ ul.products h3 {
 
     .vidcont {
         box-shadow: .4vh .4vh 0 var(--bg), 1vh 1vh 0 var(--hl);
+    }
+
+    #orderdesk {
+        display: none;
+    }
+
+    #ordermob {
+        display: block;
     }
 
 }
