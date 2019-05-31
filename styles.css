@@ -128,7 +128,7 @@ ul.products h3 {
 }
 
 #orderdesk {
-    display: block;
+    display: inline-block;
 }
 
 #ordermob {
